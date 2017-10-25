@@ -1,3 +1,453 @@
 /*
  * Estilos de tu proyecto
  */
+ * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+  line-height: 1.71429;
+  text-align: center;
+}
+img {
+  vertical-align: middle;
+}
+/**********HEADER*******************/
+header{
+	position: fixed;
+	background-color: #2c3e50;
+	width: 100%;
+	padding: 27px;
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-stretch: condensed;
+	top:0;
+	z-index: 100;
+}
+.firstName {
+	width: 400px;
+	font-size: 32px;
+	margin-left: 50px;
+	font-weight: 700;
+	float: left;
+	cursor: pointer;
+}
+header div:not(.firstName) {
+	width: 500px;
+	font-size: 17px;
+	font-weight:bold;	
+	float: right;
+	margin-top: 12px;
+	padding-left: 11px;
+	cursor: pointer;
+}
+header div a:not(.star):hover {
+	color:#18bc9c;
+}
+header div a:not(.firstName) {
+	margin:7px;
+
+}
+
+/*********START BOOTSTRAP***********************/
+.containerStartBootstrap{
+	background-color: #18bc9c;
+	width: 100%;
+	padding: 92px 0 180px 0;
+	margin-top: 108px;
+	font-family: 'Montserrat', sans-serif;
+}
+.containerStartBootstrap div h1{
+	color: #fff;
+	font-weight: 700;
+	font-size: 76px;
+	margin: 0;
+	margin-top: 12px;
+	margin-bottom: 5px;
+}
+.fa-star{
+	color: #fff;
+	font-size: 32px;
+}
+.containerStartBootstrap div .line{
+	width: 103px;
+	height: 5px;
+	background-color: #fff;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.leftLine{
+	margin-right: 3px;
+}
+.rigthLine{
+	margin: 0;
+	margin-left: 3px;
+}
+.baseStartBootstrap{
+	margin-top: 20px;
+	font-family: 'Lato', sans-serif;
+	color: #fff;
+	font-size: 1.75em;
+}
+
+/*********PORTFOLIO***********************/
+.containerPortfolio{
+	width: 100%;
+	margin-top: 90px;
+	font-family: 'Montserrat', sans-serif;
+}
+.containerPortfolio h1{
+	color: #212529;
+	font-weight: 700;
+	font-size: 50px;
+	margin: 0;
+	margin-top: 12px;
+	margin-bottom: 5px;
+}
+.containerPortfolio .fa-star{
+	color: #2c3e50;
+	font-size: 32px;
+}
+.containerPortfolio div .line{
+	width: 103px;
+	height: 5px;
+	background-color: #2c3e50;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.LineLeft{
+	margin-right: 3px;
+}
+.LineRigth{
+	margin: 0;
+	margin-left: 3px;
+}
+.containerImg{
+	padding: 20px 0 100px;
+}
+.imgPortfolio{
+	width: 350px;
+	height:253px;
+	margin-bottom: 25px;
+}
+.imgN{
+	margin-right: 25px;
+	margin-left: 25px;
+}
+.primera{
+    background-image: url(../assets/images/portfolio/cabin.png);
+    margin-bottom: 25px;
+}
+.segunda{
+    background-image: url(../assets/images/portfolio/cake.png);
+     margin-bottom: 25px;
+}
+.tercera{
+    background-image: url(../assets/images/portfolio/circus.png);
+     margin-bottom: 25px;
+}
+.cuarta{
+    background-image: url(../assets/images/portfolio/game.png);
+}
+.quinta{
+    background-image: url(../assets/images/portfolio/safe.png);
+}
+.sexta{
+    background-image: url(../assets/images/portfolio/submarine.png);
+}
+/*********div primero general*********************/
+.imgAll{
+	display: inline-block;
+	width: 350px;
+	height:253px;
+	background-repeat: no-repeat;
+    background-size: 350px 253px;
+    cursor: pointer;
+}
+/*********div segundo*********************/
+.capaPortfolio{
+	width: 350px;
+	height:253px;
+    background-color: rgba(24, 189, 157, 0.9);
+    -webkit-transition: opacity .2s;
+    opacity: 0;
+	
+}
+/*********div tercero*********************/
+.primeraCapa{
+	position: relative;
+    width: 350px;
+	height:253px;
+    
+}
+/*********HOVER*********************/
+.capaPortfolio:hover{
+	width: 350px;
+	height:253px;
+    background-color: rgba(24, 189, 157, 0.9);
+    -webkit-transition: opacity .2s;
+    opacity: 1;
+}
+.containerImg .fa{
+	font-size: 60px;
+	color: #fff;
+	margin-top: 100px;
+}
+
+/*********ABOUT***********************/
+.containerAbout{
+	background-color: #18bc9c;
+	padding: 90px 0 100px 0;
+}
+.containerAbout h1{
+	font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+	font-weight: 700;
+    font-size: 3em;
+    color: #fff;
+    margin: 0;
+}
+.containerAbout .line{
+	width: 103px;
+	height: 5px;
+	background-color: #fff;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.containerAbout .leftLine{
+	margin-right: 3px;
+}
+.containerAbout .rigthLine{
+	margin-top: -5px;
+	margin-left: 3px;
+}
+.contenedorParrafos{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	padding: 5px;
+	font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+.parrafo{
+	width: 350px;
+	display: inline-block;
+	color: #fff;
+	text-align: left;
+}
+.textOne{
+	margin-right: 30px;
+}
+.textTwo p{
+	position: relative;
+	top: 0px;
+	padding-left: 2px;
+}
+.textTwo{
+	position: relative;
+	top: -35px;
+	width: 360px;
+}
+.buttonAbout{
+	width: 217px;
+	padding: 9px 5px 9px 5px;
+	border-radius: 5px 5px 5px 5px;
+    margin-top: 15px;
+    border: solid 2px #fff;
+    display: inline-block;
+    color: #fff;
+    cursor: pointer;
+}
+.buttonAbout:hover a{
+	color: #18bc9c;
+	transition: all .3s ease-in-out;
+}
+.buttonAbout:hover{
+	transition: all .3s ease-in-out;
+	border:2px solid #fff;
+	background-color: #fff;
+	color: #18bc9c;
+}
+
+.buttonAbout a{
+	font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+	text-decoration:none; 
+	color: #fff;
+	font-size: 19px;
+	line-height: 1.5;
+}
+
+/*********CONTACT ME*************/
+.containerContactMe{
+	width: 100%;
+	font-family: 'Montserrat', sans-serif;
+	padding:70px 0 150px 0;
+}
+.containerContactMe h1{
+	color: #212529;
+	font-weight: 700;
+	font-size: 3em;
+	margin: 0;
+	margin-top: 12px;
+	margin-bottom: 5px;
+}
+.containerContactMe .fa-star{
+	color: #2c3e50;
+	font-size: 32px;
+}
+.containerContactMe div .line{
+	width: 103px;
+	height: 5px;
+	background-color: #2c3e50;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.containerContactMe .LineLeft{
+	margin-right: 3px;
+}
+.containerContactMe .LineRigth{
+	margin: 0;
+	margin-left: 3px;
+}
+.contenedorForm{
+	width: 730px;
+	margin: auto;
+}
+form li{
+	list-style: none;
+}
+form ul{
+	margin: 0;
+	padding: 0;
+}
+label{
+	display: none;
+}
+input, textarea{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5em;
+    position: relative;
+    z-index: 1;
+    padding:10px 0;
+    padding-right: 0;
+    padding-left: 0;
+    border: none;
+    background: 0 0;
+    width: 730px;
+}
+input:focus{
+	outline:0px;
+}
+textarea:focus{
+	outline:0px;
+}
+input::placeholder{
+	color: #7a8d9f;
+}
+textarea::placeholder{
+	color: #7a8d9f;
+}
+textarea{
+	height: 200px;	
+}
+.textCamp{
+	position: relative;
+    margin-bottom: 0;
+    padding-bottom: .5em;
+    border-bottom: 1px solid #eee;
+    padding:20px 0;
+}
+.submit{
+	float: left;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+    color: #fff;
+    border-color: #18bc9c;
+    background-color: #18bc9c;
+    padding: .5rem 1rem;
+    font-size: 18px;
+    line-height: 1.5;
+    border-radius: .3rem;
+   width: 79px;
+   text-align: center;
+   font-stretch: condensed;
+   margin-top: 25px;
+   cursor: pointer;
+}
+.submit:hover{
+	background-color:  #128f76;
+}
+
+/*********FOOTER*************/
+.containerFooter{
+	width: 100%;
+	font-family: 'Montserrat', sans-serif;
+	padding:40px 0 100px 0;
+	background-color: #2c3e50;
+	color: #fff;
+}
+.containerFooter .fa{
+	font-size: 21px;
+	margin-top: 12px;
+}
+.containerFooter h2{
+	font-size: 1.75rem;
+	margin: 0;
+	padding: 0;
+}
+.containerFooter p{
+	font-size: 20px;
+	font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+	font-weight: 400;
+    line-height: 1.5;
+}
+.cicle{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	border-radius: 200px 200px 200px 200px;
+	-moz-border-radius: 200px 200px 200px 200px;
+	-webkit-border-radius: 200px 200px 200px 200px;
+	border: 2px solid #fff;
+	margin: 2px;
+}
+.square{
+	width: 350px;
+	display: inline-block;
+	position: relative;
+	top: 0;
+	padding: 0;
+}
+.centerSquare{
+	margin-left: 30px;
+	margin-right: 20px;
+}
+.leftSquare{
+	top: -29px;
+}
+.centerSquare{
+top: -28px;
+}
+.centerSquare h2{
+margin-bottom: 40px;
+}
+.rigthSquare a{
+	text-decoration:none;
+	color: #18bc9c;  
+}
+.copyrigth{
+	position: relative;
+	top: 75px;
+	font-family: Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+	font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
