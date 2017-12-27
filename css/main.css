@@ -54,6 +54,8 @@ header div a:not(.star):hover {
 }
 header div a:not(.firstName) {
 	margin:7px;
+	text-decoration: none;
+	color: #fff;
 
 }
 
